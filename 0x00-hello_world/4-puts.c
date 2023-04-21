@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main- A C program that prints "Programming is like building a multilingual puzzle", followed by a new line.
+ * main - Print string
  * Return: 0 = success
  */
 int main(void) 
