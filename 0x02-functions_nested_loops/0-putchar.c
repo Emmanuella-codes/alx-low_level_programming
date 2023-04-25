@@ -1,19 +1,18 @@
-#include <main.h>
+#include "main.h"
 /**
- * main - print _putchar followed by a new line.
- *
- * Return: Always 0 (Success)
- */
+* main - print _putchar
+* Return: 0
+*/
 int main(void)
 {
-	int string[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
-	int result, size;
-
-	size = sizeof(string) / sizeof(int);
-	for (result = 0; result < size; result++)
-	{
-		_putchar(string[result]);
-	}
-	_putchar("\n");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
