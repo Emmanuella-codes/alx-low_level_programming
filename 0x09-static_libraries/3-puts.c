@@ -1,22 +1,20 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * _puts - Prints a string to the standard output
- * followed by a newline character.
- * @str: The string to be printed.
+ * _puts - print a string to stdout
+ * @str: char array string type
+ * Description: Can only use _putchar
+ *
+ * Return: Nothing
  */
+
 void _puts(char *str)
 {
-	printf("%s\n", str);
-}
+	int i;
 
-/**
- * main - Entry point
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		_putchar(str[i]);
+	}
+	_putchar('\n');
 }
